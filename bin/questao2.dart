@@ -22,7 +22,7 @@ class Pessoa {
 void main() {
   Pessoa pessoa = Pessoa('Maria', 30);
   pessoa.exibirDados();
-  pessoa.setIdade(-5); // Tentativa de atribuir idade negativa
+  pessoa.setIdade(-5); 
   pessoa.setIdade(35);
   pessoa.exibirDados();
 }

@@ -24,5 +24,5 @@ void main() {
   conta.depositar(500.0);
   conta.sacar(200.0);
   print('Saldo atual: ${conta.getSaldo()}');
-  conta.sacar(2000.0); // Tentativa de sacar mais do que o saldo
+  conta.sacar(2000.0); 
 }
